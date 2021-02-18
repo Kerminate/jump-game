@@ -3,6 +3,8 @@
  */
 
 import './libs/weapp-adapter';
-import * as THREE from './libs/three';
+import Main from './src/main'
+
+Main.init();
 
 console.log('hello world!');
