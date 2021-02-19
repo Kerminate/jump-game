@@ -23,9 +23,9 @@ class GameView {
 
   initGameOverPage(callacks) {
     this.gameOverPage = new GameOverPage(callacks);
-    this.gameOverPage.init({
-      scene: this.gamePage.scene
-    });
+    // this.gameOverPage.init({
+    //   scene: this.gamePage.scene
+    // });
   }
 
   initPages(callacks) {

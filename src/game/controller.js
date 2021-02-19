@@ -23,7 +23,7 @@ class GameController {
   initPages() {
     const gamePageCallbacks = {
       showGameOverPage: () => {
-        this.gameModel.setStage('game-over');
+        // this.gameModel.setStage('game-over');
       }
     }
 
