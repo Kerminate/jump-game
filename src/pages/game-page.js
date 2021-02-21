@@ -25,6 +25,9 @@ export default class GamePage {
 
   render() {
     this.scene.render();
+    if (this.bottle) {
+      this.bottle.update();
+    }
     requestAnimationFrame(this.render.bind(this));
   }
 
@@ -42,8 +45,9 @@ export default class GamePage {
 
   addBottle() {
     this.scene.instance.add(this.bottle.obj);
+    this.bottle.showup();
   }
-
+  
   show() {
     console.log('game page show');
     // this.obj.visible = true;
